@@ -46,7 +46,7 @@ const page = () => {
   }, []);
 
   return (
-    <div className='min-h-screen realtive bg-gray-100 pt-32 md:p-52'>
+    <div className='min-h-screen realtive bg-gray-100 pt-32 pb-32 md:p-52'>
       <div className='absolute top-10 right-10 flex justify-center items-center'>
         <button
           onClick={() => setFarheneit(false)}
